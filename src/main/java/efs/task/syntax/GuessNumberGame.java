@@ -43,7 +43,7 @@ public class GuessNumberGame {
         Scanner scanner = new Scanner(System.in);
 
         while (numberOfTries <= maxOfTries) {
-            System.out.println("Liczba prób: " + maxOfTries + " [" + "*".repeat(numberOfTries) + ".".repeat(maxOfTries - numberOfTries) + "]");
+            System.out.println("Liczba prób : " + maxOfTries + " [" + "*".repeat(numberOfTries) + ".".repeat(maxOfTries - numberOfTries) + "]");
             System.out.println("PODAJ liczbę :");
 
             String input = scanner.next();
